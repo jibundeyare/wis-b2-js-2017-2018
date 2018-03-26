@@ -10,23 +10,23 @@ Pour installer les dépendances spécifiées dans le fichier `package.json` :
 
 Pour installer jQuery :
 
-		npm install jquery
+    npm install jquery
 
 ## Installer Bootstrap
 
 Pour installer Bootstrap 3 :
 
-		npm install bootstrap@3.3.7
+    npm install bootstrap@3.3.7
 
 Pour installer Bootstrap 4 :
 
-		npm install bootstrap
+    npm install bootstrap
 
 ## Installer Webpack
 
 Pour installer Webpack :
 
-		npm install webpack
+    npm install webpack
 
 ## Créer un bundle avec Webpack
 
