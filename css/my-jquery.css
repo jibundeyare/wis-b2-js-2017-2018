@@ -1,0 +1,17 @@
+/* css/my-jquery.css */
+
+.box {
+    background-color: pink;
+    display: inline-block;
+    height: 200px;
+    transition: all 3s;
+    width: 200px;
+}
+
+.box-big {
+    background-color: lightblue;
+    display: inline-block;
+    height: 400px;
+    transition: all 3s;
+    width: 400px;
+}
