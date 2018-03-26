@@ -1,5 +1,33 @@
 # JavaScript jQuery
 
+## Installer les dépendances
+
+Pour installer les dépendances spécifiées dans le fichier `package.json` :
+
+    npm install
+
+## Installer jQuery
+
+Pour installer jQuery :
+
+		npm install jquery
+
+## Installer Bootstrap
+
+Pour installer Bootstrap 3 :
+
+		npm install bootstrap@3.3.7
+
+Pour installer Bootstrap 4 :
+
+		npm install bootstrap
+
+## Installer Webpack
+
+Pour installer Webpack :
+
+		npm install webpack
+
 ## Créer un bundle avec Webpack
 
 Créer un bundle `js/webpack-hello-bundle.js` dont le point d'entrée est `js/webpack-hello-main.js` :
