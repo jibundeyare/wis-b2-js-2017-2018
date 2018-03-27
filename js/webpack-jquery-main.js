@@ -1,10 +1,11 @@
-import {jQuery} from 'jquery';
+import 'jquery';
 
 $(document).ready(function() {
     console.log('ready');
 
     $('#button1').click(function(event) {
-        alert('Hello!');
+        var username = $('#username').val();
+        alert('Hello ' + username + '!');
     });
 
     var handleTitleInput = function(event) {
