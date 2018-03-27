@@ -7063,10 +7063,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_jquery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_jquery__);
 // js/webpack-jquery-main.js
 
-// @todo activate import
 
-
-// var $ = require('jquery');
 
 $(document).ready(function() {
     console.log('ready');
@@ -7075,11 +7072,14 @@ $(document).ready(function() {
         alert('Hello!');
     });
 
-    $('#title').keyup(function(event) {
+    var handleTitleInput = function(event) {
         var length = event.target.value.length;
         console.log(length);
         $('#title-length').html(length);
-    });
+    };
+
+    $('#title').keyup(handleTitleInput);
+    $('#title').keydown(handleTitleInput);
 });
 
 

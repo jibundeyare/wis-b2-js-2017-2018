@@ -1,9 +1,4 @@
-// js/webpack-jquery-main.js
-
-// @todo activate import
-
 import {jQuery} from 'jquery';
-// var $ = require('jquery');
 
 $(document).ready(function() {
     console.log('ready');
@@ -12,9 +7,12 @@ $(document).ready(function() {
         alert('Hello!');
     });
 
-    $('#title').keyup(function(event) {
+    var handleTitleInput = function(event) {
         var length = event.target.value.length;
         console.log(length);
         $('#title-length').html(length);
-    });
+    };
+
+    $('#title').keyup(handleTitleInput);
+    $('#title').keydown(handleTitleInput);
 });

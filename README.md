@@ -54,3 +54,8 @@ Créer un bundle `js/webpack-jquery-bundle.js` dont le point d'entrée est `js/w
 
     npx webpack js/webpack-jquery-main.js js/webpack-jquery-bundle.js
 
+### Création automatique du bundle
+
+La commande suivante recréé le bundle dès qu'un changement est détecté dans un fichier JavaScript :
+
+    npx webpack --watch js/webpack-jquery-main.js js/webpack-jquery-bundle.js

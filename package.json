@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "jquery": "^3.3.1",
+    "owl.carousel": "^2.3.3",
     "webpack": "^3.11.0"
   },
   "devDependencies": {},
