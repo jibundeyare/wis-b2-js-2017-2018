@@ -31,3 +31,17 @@ function bonusLives(score) {
 var score = 123;
 var lives = bonusLives(score);
 console.log(lives);
+
+// le mot clé `let` permet de déclarer une variable locale
+
+let baz = 3.14;
+
+if (true) {
+    var foo = 123;
+    let bar = 42;
+
+    console.log('baz: ' + baz);
+}
+
+console.log('foo: ' + foo);
+console.log('bar: ' + bar);
